@@ -95,7 +95,7 @@ ruff = dog.bark();
 function looper(arr) {
   let mySum = 0;
   for (let i = 0; i < arr.length; i++){
-    if (arr[i] % 2 != 0 || arr[i] >= 100) {
+    if (arr[i] % 2 || arr[i] >= 100) {
       mySum += arr[i];
     }
   }
